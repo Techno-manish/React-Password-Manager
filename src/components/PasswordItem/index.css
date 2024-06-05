@@ -1,0 +1,39 @@
+.passwordItemContainer {
+  width: 280px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #454f84;
+  border-radius: 5px;
+}
+
+.userLogo {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #10b981;
+  color: #fff;
+  border-radius: 100%;
+}
+.userDetails {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+.deleteButton {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.deleteIcon {
+  height: 30px;
+  cursor: pointer;
+}
+.starImage {
+  height: 10px;
+}

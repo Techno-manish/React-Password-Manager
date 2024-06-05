@@ -1,0 +1,10 @@
+.NoPasswordContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.noPasswordImage {
+  height: 250px;
+}

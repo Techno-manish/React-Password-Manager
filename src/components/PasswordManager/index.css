@@ -1,0 +1,103 @@
+.bgContainer {
+  height: 100%;
+  background-color: #9ba9eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8vh;
+  padding-bottom: 30px;
+}
+
+.imageLogo {
+  height: 60px;
+  width: 200px;
+  align-self: flex-start;
+  margin-left: 9vw;
+}
+
+.upperSectionContainer {
+  width: 80%;
+  height: 40%;
+  background-color: #5763a5;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lowerSectionContainer {
+  width: 80%;
+  height: 100%;
+  background-color: #5763a5;
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 25px;
+}
+.heroImage {
+  height: 200px;
+  width: 200px;
+}
+
+.formContainer {
+  background-color: #454f84;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.inputElementContainer {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  height: 30px;
+  margin-bottom: 10px;
+}
+.websiteImage {
+  height: 20px;
+  margin-top: 4px;
+}
+.inputElement {
+  height: 30px;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-left: 1px solid #64748b;
+}
+
+.button {
+  align-self: flex-end;
+  background-color: #0b69ff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.bottomSectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.passwordCount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.count {
+  font-size: 24px;
+}
+.passwordCheckboxContainer {
+  display: flex;
+  justify-content: flex-end;
+  color: #fff;
+}
+.passwordListContainer {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
